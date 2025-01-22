@@ -51,7 +51,7 @@ def cash(value):
 	nickels = cents // 5
 
 	# Retourner les valeurs dans un tuple (oui on peut faire ça).
-	return twenties, tens, fives, ones, quarters, dimes, nickels;
+	return twenties, tens, fives, ones, quarters, dimes, nickels
 
 def format_base(value, base, letters):
 	# Commencer par une string vide.
